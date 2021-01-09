@@ -26,9 +26,9 @@ export default function Header(){
                 <div class="ml-10 flex items-baseline space-x-4">
                   <Link href="/about" class="text-gray-700 hover:text-black px-3 py-2 rounded-md text-base font-medium">About</Link>
 
-                  <Link href="#" class="text-gray-700 hover:text-black px-3 py-2 rounded-md text-base font-medium">Changelog</Link>
+                  <Link href="/changelog" class="text-gray-700 hover:text-black px-3 py-2 rounded-md text-base font-medium">Changelog</Link>
 
-                  <Link href="#" class="text-gray-700 hover:text-black px-3 py-2 rounded-md text-base font-medium">Features</Link>
+                  <Link href="/features" class="text-gray-700 hover:text-black px-3 py-2 rounded-md text-base font-medium">Features</Link>
                 </div>
               </div>
               <div class="hidden md:block">
@@ -59,11 +59,11 @@ export default function Header(){
           <div style={{display: showMenu? "block" : "none"}} class="">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
 
-              <a href="#" class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+              <Link href="/about" class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">About</Link>
 
-              <a href="#" class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Changelog</a>
+              <Link href="/changelog" class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Changelog</Link>
 
-              <a href="#" class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Features</a>
+              <Link href="/features" class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Features</Link>
 
             </div>
           </div>
