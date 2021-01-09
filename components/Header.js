@@ -59,12 +59,15 @@ export default function Header(){
           <div style={{display: showMenu? "block" : "none"}} class="">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
 
-              <Link href="/about" class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">About</Link>
-
-              <Link href="/changelog" class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Changelog</Link>
-
-              <Link href="/features" class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Features</Link>
-
+              <Link href="/about"><a class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">About</a>
+              </Link>
+              
+              <Link href="/changelog"><a class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Changelog</a>
+              </Link>
+              
+              <Link href="/features"><a class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Features</a>
+              </Link>
+              
             </div>
           </div>
           
