@@ -27,18 +27,18 @@ export default function Changelog({allPostsData}) {
           
             <div className="-my-10 divide-y-2 divide-gray-100">
               {allPostsData.map(({ id, date }) => (
-                <div className="flex flex-wrap items-baseline py-8 md:flex-no-wrap">
-                  <div className="flex flex-col flex-shrink-0 mb-6 md:w-64 md:mb-0">
-                    <span className="mt-1 text-base text-accent5">{date}</span>
+                <Link href="/changelog/[id]" as={`/changelog/${id}`}>
+                  <div className="flex flex-wrap items-baseline py-8 cursor-pointer md:flex-no-wrap">
+                    <div className="flex flex-col flex-shrink-0 mb-6 md:w-64 md:mb-0">
+                      <span className="mt-1 text-base text-accent5">{date}</span>
+                    </div>
+                    <div className="px-8 md:flex-grow">
+                      <h2 className="text-xl font-medium text-black ">
+                          <span className="inline-flex items-center mt-1 text-black hover:text-blue-500">v{id}</span>
+                      </h2>
+                    </div>
                   </div>
-                  <div className="px-8 md:flex-grow">
-                    <h2 className="text-xl font-medium text-black ">
-                      <Link href="/changelog/[id]" as={`/changelog/${id}`}>
-                        <a className="inline-flex items-center mt-1 text-black hover:text-blue-500">v{id}</a>
-                      </Link>
-                    </h2>
-                  </div>
-                </div>
+                </Link>
               ))}
             </div>
                         

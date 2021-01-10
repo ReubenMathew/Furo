@@ -20,7 +20,7 @@ export default function PageTemplate({ postData }) {
         
         <section class="text-gray-600 body-font min-h-screen mx-auto px-8 sm:px-32">
             <div class="container px-5 py-24 mx-auto flex flex-wrap">
-                <h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font mb-4 sm:mb-2 md:w-2/5">{postData.version} - {postData.title}</h2>
+                <h2 class="sm:text-2xl text-xl text-gray-900 font-medium title-font mt-2 mb-4 sm:mb-2 md:w-2/5">{postData.version} - {postData.title}</h2>
                 <div class="md:w-3/5 md:pl-6">
                 <div class="leading-relaxed prose sm:prose-lg" dangerouslySetInnerHTML={{ __html: postData.contentHtml }}></div>
                 <div class="flex md:mt-4 mt-6">
