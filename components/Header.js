@@ -28,7 +28,8 @@ export default function Header(){
 
                   <Link href="/changelog" class="text-gray-700 hover:text-black px-3 py-2 rounded-md text-base font-medium">Changelog</Link>
 
-                  <Link href="/features" class="text-gray-700 hover:text-black px-3 py-2 rounded-md text-base font-medium">Features</Link>
+                  {/* <Link href="/features" class="text-gray-700 hover:text-black px-3 py-2 rounded-md text-base font-medium">Features</Link> */}
+                  <Link href="https://github.com/ReubenMathew/furo/issues" class="text-gray-700 hover:text-black px-3 py-2 rounded-md text-base font-medium">Feedback</Link>
                 </div>
               </div>
               <div class="hidden md:block">
@@ -65,7 +66,9 @@ export default function Header(){
               <Link href="/changelog"><a class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Changelog</a>
               </Link>
               
-              <Link href="/features"><a class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Features</a>
+              {/* <Link href="/features"><a class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Features</a>
+              </Link> */}
+              <Link href="https://github.com/ReubenMathew/furo/issues"><a class="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium cursor-pointer">Feedback</a>
               </Link>
               
             </div>
